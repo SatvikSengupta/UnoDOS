@@ -7,7 +7,7 @@ A DOS-Like Operating System for the Arduino UNO
 ![Storage](https://img.shields.io/badge/Storage-1KB_EEPROM-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge)
 
-UnoDOS transforms a standard Arduino Uno into a mini computer. It features a persistent filesystem, a command-line interface, hardware control, and batch script execution—all running entirely within the ATmega328P's internal memory. 
+UnoDOS transforms a standard Arduino Uno into a mini computer. It features a persistent filesystem, a command-line interface, hardware control, and batch script execution, all running entirely within the ATmega328P's internal memory. 
 
 ---
 
