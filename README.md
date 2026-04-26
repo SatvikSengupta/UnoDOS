@@ -13,7 +13,7 @@ UnoDOS transforms a standard Arduino Uno into a mini computer. It features a per
 
 ## Features
 
-* **Zero External Dependencies:** Runs on the Arduino's default hardware. No external modelues needed.
+* **Zero External Dependencies:** Runs on the Arduino's default hardware. No external modules needed.
 * **EEPROM File System (EFS):** Transforms the Uno's 1,024 bytes of non-volatile EEPROM into a persistent disk drive.
 * **The `AUTOEXEC.BAT` Engine:** Write batch scripts to hardware memory. UnoDOS will parse and execute them line-by-line, including running an auto-execute script on boot.
 * **Hardware Abstraction Layer (HAL):** Command physical pins directly from the terminal. 
