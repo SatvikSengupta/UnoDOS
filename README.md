@@ -3,7 +3,7 @@ A DOS-Like Operating System for the Arduino UNO
 
 
 ![Arduino](https://img.shields.io/badge/Platform-Arduino_Uno-00979C?style=for-the-badge&logo=arduino)
-![RAM](https://img.shields.io/badge/RAM_Budget-2048_Bytes-red?style=for-the-badge)
+![RAM](https://img.shields.io/badge/RAM-2048_Bytes-red?style=for-the-badge)
 ![Storage](https://img.shields.io/badge/Storage-1KB_EEPROM-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge)
 
@@ -17,7 +17,7 @@ UnoDOS transforms a standard Arduino Uno into a mini computer. It features a per
 * **EEPROM File System (EFS):** Transforms the Uno's 1,024 bytes of non-volatile EEPROM into a persistent disk drive.
 * **The `AUTOEXEC.BAT` Engine:** Write batch scripts to hardware memory. UnoDOS will parse and execute them line-by-line, including running an auto-execute script on boot.
 * **Hardware Abstraction Layer (HAL):** Command physical pins directly from the terminal. 
-* **Ruthless Memory Management:** Operates dynamically within 2 KB of SRAM, featuring an onboard `MEM` command to track Heap/Stack collisions in real-time.
+* **Memory Management:** Operates dynamically within 2 KB of SRAM, featuring an onboard `MEM` command to track Heap/Stack collisions in real-time.
 
 ---
 
