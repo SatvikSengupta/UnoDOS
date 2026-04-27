@@ -1,6 +1,6 @@
 # UnoDOS
 A DOS-Like Operating System for the Arduino UNO
-Creator: Satvik Sengupta ( https://github.com/SatvikSengupta )
+#### Creator: Satvik Sengupta ( https://github.com/SatvikSengupta )
 
 
 ![Arduino](https://img.shields.io/badge/Platform-Arduino_Uno-00979C?style=for-the-badge&logo=arduino)
