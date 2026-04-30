@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) { ; } 
   
-  Serial.println(F("Starting UnoDOS v3.0..."));
+  Serial.println(F("Starting UnoDOS v1.0..."));
   Serial.println(F("HAL, BATCH, and FAT16 Loaded."));
   Serial.print(F("Mounting Disk... "));
   
