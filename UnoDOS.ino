@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) { ; } 
   
-  Serial.println(F("Starting UnoDOS v1.0..."));
+  Serial.println(F("Starting UnoDOS v3.0..."));
   Serial.println(F("HAL, BATCH, and FAT16 Loaded."));
   Serial.print(F("Mounting Disk... "));
   
@@ -198,7 +198,9 @@ void executeCommand(char* cmdRaw) {
     Serial.print(F("Free RAM: ")); Serial.println(freeMemory());
   }
   else if (strcmp(cmd, "CLS") == 0) {
-    Serial.print(F("\033[2J\033[H"));
+    for (int i = 0; i < 50; i++) {
+     Serial.println();
+    };
   }
   else if (strcmp(cmd, "FORMAT") == 0) {
     for (int i = 0; i < EEPROM_SIZE; i++) { EEPROM.update(i, 0); }
